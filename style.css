@@ -28,3 +28,24 @@ body {
     display: none;
   }
 }
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .d-flex {
+    flex-direction: column;
+  }
+}
+
+.d-flex {
+  display: flex;
+  justify-content: flex-end     ;
+  height: 250px;
+  }
